@@ -97,6 +97,10 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 ```
 
 ## Demo
+### 1. Object Transfiguration
+**horse2zebra**   
+![](docs/horse2zebra.png)
+
 
 ## Citation
 Thanks to the repository [https://github.com/Lornatang/CycleGAN-PyTorch](https://github.com/Lornatang/CycleGAN-PyTorch) for reference.
