@@ -60,7 +60,7 @@ We release the pretrained model in [Google drive](https://drive.google.com/drive
 You can also find the Resnet50 pretrained weight in the above link, downloading it and placing it in the `evaluation` folder for testing classification.
 
 ## Run
-Make sure you are in the main directory. You can refer to the `scripts` folder for command lines.
+Make sure you are in the main directory. You can refer to the `scripts` folder for command lines.     
 **NOTE**: Need adding `--cuda` to enable CUDA training and testing.
 ### 1. Train
 ```
