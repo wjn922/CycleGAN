@@ -100,6 +100,16 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 ### 1. Object Transfiguration
 **horse2zebra**   
 <img src="docs/horse2zebra.png" width="200">
+**apple2orange**   
+<img src="docs/apple2orange.png" width="200">
+
+### 2. Season Transfer
+**summer2winter**   
+<img src="docs/summer2winter.png" width="200">
+
+### 3. Painting Genaration from Photograph
+<img src="docs/paintings.png" height="100">
+
 
 
 ## Citation
