@@ -99,7 +99,7 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 ## Demo
 ### 1. Object Transfiguration
 **horse2zebra**   
-![](docs/horse2zebra.png)
+<img src="docs/horse2zebra.png" width="200">
 
 
 ## Citation
