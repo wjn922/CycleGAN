@@ -1,6 +1,7 @@
 # CycleGAN
-The repository is for the project of course COMP8503.     
-<img src="docs/cycle_consistency.png" width="600"> 
+The repository is for the project of course COMP8503.       
+If you have any question, please feel free to propose issue or contact me wjn922@connect.hku.hk
+<img src="docs/cycle_consistency.png" width="450"> 
 
 
 ## Structure
@@ -110,8 +111,13 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 <img src="docs/summer2winter.png" width="200">
 
 ### 3. Painting Genaration from Photograph    
-<img src="docs/paintings.png" height="100">   
+<img src="docs/paintings.png" height="150">   
 
+### 4. Test Video
+**input**   
+<img src="docs/horse.gif" height="200">    
+**output**   
+<img src="docs/out_horse.gif" height="200">   
 
 
 ## Citation
