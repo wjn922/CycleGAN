@@ -116,9 +116,9 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 
 ### 4. Test Video
 **input**   
-![](docs/horse.gif)  
+![input](https://github.com/wjn922/CycleGAN/blob/main/docs/horse%20.gif)  
 **output**   
-![](docs/out_horse.gif)   
+![output](https://github.com/wjn922/CycleGAN/blob/main/docs/out_horse%20.gif)   
 
 
 ## Citation
