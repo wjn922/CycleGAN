@@ -1,6 +1,6 @@
 # CycleGAN
 The repository is for the project of course COMP8503.       
-If you have any question, please feel free to propose issue or contact me wjn922@connect.hku.hk
+If you have any question, please feel free to propose issue or contact me wjn922@connect.hku.hk.
 <img src="docs/cycle_consistency.png" width="450"> 
 
 
@@ -60,6 +60,7 @@ We release the pretrained model in [Google drive](https://drive.google.com/drive
 You can also find the Resnet50 pretrained weight in the above link, downloading it and placing it in the `evaluation` folder for testing classification.
 
 ## Run
+Make sure you are in the main directory. You can refer to the `scripts` folder for command lines.
 **NOTE**: Need adding `--cuda` to enable CUDA training and testing.
 ### 1. Train
 ```
@@ -115,9 +116,9 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 
 ### 4. Test Video
 **input**   
-<img src="docs/horse.gif" height="200">    
+![](docs/horse.gif)  
 **output**   
-<img src="docs/out_horse.gif" height="200">   
+![](docs/out_horse.gif)   
 
 
 ## Citation
