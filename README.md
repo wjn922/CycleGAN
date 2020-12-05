@@ -1,5 +1,7 @@
 # CycleGAN
-The repository is for the project of course COMP8503.
+The repository is for the project of course COMP8503.     
+<img src="docs/cycle_consistency.png" width="600"> 
+
 
 ## Structure
 ```
@@ -98,17 +100,17 @@ python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zeb
 
 ## Demo
 ### 1. Object Transfiguration
-**horse2zebra**   
-<img src="docs/horse2zebra.png" width="200">
-**apple2orange**   
-<img src="docs/apple2orange.png" width="200">
+**horse2zebra**     
+<img src="docs/horse2zebra.png" width="200">      
+**apple2orange**      
+<img src="docs/apple2orange.png" width="200">    
 
 ### 2. Season Transfer
 **summer2winter**   
 <img src="docs/summer2winter.png" width="200">
 
-### 3. Painting Genaration from Photograph
-<img src="docs/paintings.png" height="100">
+### 3. Painting Genaration from Photograph    
+<img src="docs/paintings.png" height="100">   
 
 
 
