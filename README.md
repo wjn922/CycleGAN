@@ -53,10 +53,48 @@ In the projects, 8 datasets are used: **horse2zebra**, **apple2orange**, **summe
 After downloading the .zip file, please put it in the `data` folder and unzip it.
 
 ## Pretrained Model
-We release the pretrained model in [Google drive](https://drive.google.com/drive/folders/1288wgHpT1aDfvcX9Xqxs4gr4VX1hsMBu?usp=sharing). You can download them and put into the corresponding dataset folder under `weights`.  
+We release the pretrained model in [Google drive](https://drive.google.com/drive/folders/1288wgHpT1aDfvcX9Xqxs4gr4VX1hsMBu?usp=sharing). You can download them and put them into the corresponding dataset folder under `weights` folder.  
 You can also find the Resnet50 pretrained weight in the above link, downloading it and placing it in the `evaluation` folder for testing classification.
 
 ## Run
+**NOTE**: Need adding `--cuda` to enable CUDA training and testing.
+### 1. Train
+```
+python train.py --cuda --dataset [dataset_name]
+```
+### 2. Test
+This is used for traslating all the images for a given dataset.
+```
+python test.py --dataset [dataset_name] --cuda --netG_A2B [pretrained netG_A2B name] --netG_B2A [pretrained netG_B2A name]
+```
+### 3. Test Classification
+This is used for evaluating the classification accuracy for 2 datasets: **horse2zebra**, **apple2orange**.
+```
+python test_classification.py --cuda --datapath [/path/to/dataset] --label [label_name] --batch_size 32
+```
+For example
+```
+python test_classification.py --cuda --datapath ./data/horse2zebra/testA --label horse --batch_size 32
+```
+### 4. Test Image
+This is used for translating a single image.
+```
+python test_image.py --cuda --file [/path/to/image] --model-name [/path/to/pretrained weight]
+```
+For example
+```
+python test_image.py --cuda --file demo/horse.png --model-name weights/horse2zebra/netG_A2B_epoch_199.pth
+```
+
+### 5. Test Video
+This is used for translating a single image.
+```
+python test_video.py --cuda --file [/path/to/video] --model-name [/path/to/pretrained weight]
+```
+For example
+```
+python test_video.py --cuda --file demo/horse.mp4 --model-name weights/horse2zebra/netG_A2B_epoch_199.pth
+```
 
 ## Demo
 
